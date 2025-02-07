@@ -1,0 +1,63 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffb6c1; /* Light pink background */
+    color: #333;
+    height: 100vh; /* Full height of the viewport */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    flex-direction: column; /* Stack elements vertically */
+    text-align: center; /* Center the text */
+}
+
+/* Styling for the GIF */
+img {
+    max-width: 100%; /* Make sure the GIF is responsive */
+    height: auto;
+    margin-top: 20px; /* Space between the text and GIF */
+}
+
+/* Button Container Styling */
+.button-container {
+    margin-top: 30px; /* Space between the GIF and buttons */
+}
+
+/* General Button Styling */
+.btn {
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px; /* Space between the buttons */
+    transition: transform 0.3s ease; /* Add a smooth scale effect */
+}
+
+/* Green Button Styling */
+.btn.green {
+    background-color: #28a745; /* Green background */
+    color: white;
+    transform: scale(1); /* Start at normal size */
+}
+
+.btn.green:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Red Button Styling */
+.btn.red {
+    background-color: #dc3545; /* Red background */
+    color: white;
+}
+
+.btn.red:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
